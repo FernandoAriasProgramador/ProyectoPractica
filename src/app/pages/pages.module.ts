@@ -11,6 +11,7 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
 
 import { ChartsModule } from 'ng2-charts';
 import { DonasComponent } from '../components/donas/donas.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -21,7 +22,8 @@ import { DonasComponent } from '../components/donas/donas.component';
         Graficas1Component,
         PagesComponent,
         IncrementadorComponent,
-        DonasComponent
+        DonasComponent,
+        AccountSettingsComponent
     ],
     exports: [
         DashboardComponent,
