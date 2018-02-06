@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { NopagefoundComponent } from './pages/nopagefound/nopagefound.component';
 import { RegisterComponent } from './login/register.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ServicesModule } from './service/services.module';
 
 
@@ -31,7 +31,8 @@ import { ServicesModule } from './service/services.module';
     APP_ROUTES,
     PagesModule,
     FormsModule,
-    ServicesModule
+    ServicesModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
